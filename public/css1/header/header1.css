@@ -113,7 +113,7 @@
         text-align: center;
         box-shadow: none;
         border: none;
-        color: #878787;
+        color: #474646;
         width: 40px;
         padding: 0; }
       .lib-list-item-product2 .image-dev .list-button-dev li:hover {
@@ -141,7 +141,7 @@
       border: 1px solid #ddd;
       font-size: 12px;
       text-transform: uppercase;
-      color: #999;
+      color: rgb(70, 68, 68);
       font-weight: bold;
       box-shadow: none;
       border-radius: 0;
@@ -296,9 +296,9 @@
     padding: 0;
     font-size: 13px;
     border: none;
-    color: #878787; }
+    color: #666666; }
   .typeheader-1 ul.top-link > li > a {
-    color: #ccc; }
+    color: rgb(85, 83, 83); }
   .typeheader-1 ul.top-link > li > a i {
     margin-right: 5px; }
   .typeheader-1 ul.top-link > li:last-child {

@@ -109,7 +109,7 @@ span.hed-white {
 .header-left-bottom h3 {
   font-size: 16px;
   font-weight: 400;
-  color:#A59DA1;
+  color:#535152;
   line-height: 1.5em;
   margin: 0px 0px 25px 0px;
   font-family: 'Roboto Condensed', sans-serif;
@@ -123,10 +123,10 @@ span.login-color {
     outline: none;
     font-size: 15px;
     font-weight: 400;
-    color: #fff;
+    color: rgb(12, 12, 12);
     padding: 12px 13px 20px 44px;
 	border:none;
-    border-bottom:1px solid #fff;
+    border-bottom:1px solid rgb(35, 111, 161);
     width: 87%;
     margin: 0 0 20px;
     display: inline-block;
@@ -136,9 +136,9 @@ span.login-color {
   outline: none;
   font-size: 15px;
   font-weight: 400;
-  color: #fff;
+  color: rgb(17, 17, 17);
   border:none;
-  border-bottom:1px solid #fff;
+  border-bottom:1px solid rgb(27, 120, 173);
   padding: 12px 13px 20px 44px;
  width: 87%;
    margin: 0 0 20px;
@@ -146,7 +146,7 @@ span.login-color {
 }
 .header-left-bottom input[type="submit"] {
     background: #ff3366;
-    color: #FFF;
+    color: rgb(19, 18, 18);
     font-size: 26px;
     padding: 0.3em 1.2em;
     width: 100%;
@@ -181,7 +181,7 @@ h5 {
 }
 .header-social a.face{
   background:url(../images/fac.png)no-repeat 12px 9px #3B62A3;
-  color: #FFF;
+  color: rgb(34, 33, 33);
   font-size: 16px;
   font-weight: 400;
   padding: 0 2em;
@@ -206,7 +206,7 @@ h5 {
 /*-- agileits --*/
 .header-social a.twitt {
   background:url(../images/twitter.png)no-repeat 12px 9px #19B0E7;
-  color: #FFF;
+  color: rgb(17, 17, 17);
   font-size: 16px;
   font-weight: 400;
   padding: 0 2.5em;
@@ -309,7 +309,7 @@ span.sin-color {
 	font-weight: 400;
 	color: #000;
 	padding:10px 10px 10px 40px;
-	border: 1px solid #A59DA1;
+	border: 1px solid #635d60;
 	margin: 0px 0px 15px 0px;
 	width: 78%;
 	-webkit-appearance: none;
@@ -337,7 +337,7 @@ span.sin-color {
   font-family: 'Roboto Condensed', sans-serif;
 }
 .strip-left input[type="submit"] {
-  color: #FFF;
+  color: rgb(20, 20, 20);
   font-size: 18px;
   padding: 0.4em 1.2em;
   width:100%;
@@ -440,7 +440,7 @@ span.sin-color {
   height: 0;
   bottom: -20px;
   border-right: 20px solid rgba(0, 0, 0, 0);
-  border-bottom: 20px solid #fff;
+  border-bottom: 20px solid rgb(12, 136, 167);
   border-left: 20px solid rgba(0, 0, 0, 0);
   top: -9%;
   right: 6%;
@@ -455,7 +455,7 @@ span.sin-color {
 }
 .strip-sign-up h3 {
   font-size: 21px;
-  color: #fff;
+  color: rgb(19, 18, 18);
   margin: 0px;
   font-family: 'Roboto Condensed', sans-serif;
 }
@@ -476,7 +476,7 @@ span.sin-color {
     margin-top: 0.2em;
 }
 .forgot h6 a{
-    color:#efe8e8;
+    color:#666060;
 }
 .forgot h6 a:hover{
     color:#ff3366;
@@ -558,12 +558,12 @@ span.sin-color {
 .copyright p {
   font-size: 16px;
   font-weight: 400;
-  color: #fff;
+  color: rgb(12, 12, 12);
 }
 .copyright p a{
   font-size: 16px;
   font-weight: 400;
-  color: #fff;
+  color: rgb(8, 8, 8);
 }
 .copyright p a:hover{
 	color:#ff3366;

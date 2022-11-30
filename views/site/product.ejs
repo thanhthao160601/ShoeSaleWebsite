@@ -26,13 +26,13 @@
         <div class="span7">
           <div class="row">
             <div class="span7">
-              <h1 class="productname"><span class="bgnone" style="color:#009933 ;">
+              <h1 class="productname"><span class="bgnone" style="color:#1d95b3 ;">
                 <%= data.name%></span></h1>
         
               <hr>
-              <h1 class="productname"><span class="bgnone" style="color: black;font-size:16px;">Số lượng: <%= data.sale1 %></span></h1> 
+              <h1 class="productname"><span class="bgnone" style="color: black;font-size:16px;">Amount: <%= data.sale1 %></span></h1> 
               <hr>
-              <h1 class="productname"><span class="bgnone" style="color: black;font-size:16px;">Size : &nbsp;&nbsp;&nbsp;   M  &nbsp;&nbsp;&nbsp;  L   &nbsp;&nbsp;&nbsp; XL</span></h1> 
+              <h1 class="productname"><span class="bgnone" style="color: black;font-size:16px;">Size : &nbsp;&nbsp;&nbsp;   35  &nbsp;&nbsp;&nbsp;  36   &nbsp;&nbsp;&nbsp; 37  &nbsp;&nbsp;&nbsp; 38  &nbsp;&nbsp;&nbsp; 39  &nbsp;&nbsp;&nbsp; 40</span></h1> 
 
               <hr>
               <div class="productprice" style="margin-top: -30px;">
@@ -40,7 +40,7 @@
                    <div class="productpageprice" style="display:none ; width: 387px;">
                     <% if(data.sale > 0) { %>
                     <span class="spiral"></span><%= data.price%></div>
-                    <span class="1"> </span><h2 style="margin-left:-120px;">Giá sản phẩm:&nbsp;&nbsp;&nbsp; <%= parseInt(data.salePrice).toLocaleString('en-us') %> đ</h2> </div>
+                    <span class="1"> </span><h2 style="margin-left:-120px;">Price:&nbsp;&nbsp;&nbsp; <%= parseInt(data.salePrice).toLocaleString('en-us') %> đ</h2> </div>
                     <% } else { %>
                     <span class="spiral" style="display:none ; "></span><%= data.price%></div>
                     <% } %>
@@ -50,13 +50,13 @@
 
             
               <ul class="productpagecart" style="margin-top: 52px; ">
-                <li><a class="cart" href="/cart/add/<%= data.id %>" style= "margin-left: 30px;background-color: #009933; ">THÊM VÀO GIỎ HÀNG</a>
+                <li><a class="cart" href="/cart/add/<%= data.id %>" style= "margin-left: 30px;background-color: #18a3a3; ">ADD TO CART</a>
                 </li> 
               </ul>
               <!-- Product Description tab & comments-->
               <div class="productdesc">
                 <ul class="nav nav-tabs" id="myTab">
-                  <li class="active" ><a href="#description" ><h4 style="color: black;">MÔ TẢ CHI TIẾT</h4></a>
+                  <li class="active" ><a href="#description" ><h4 style="color: black;">DETAILS DESCRIPTION</h4></a>
                   </li>
               
                 </ul>
